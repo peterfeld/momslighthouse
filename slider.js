@@ -11,9 +11,7 @@ const middleSlider = slider.querySelector('.slider__item_for-mom');
 const lastSlider = slider.querySelector('.slider__item_for-a-child');
 
 const slides = Array.from(slider.querySelectorAll('.slider__item'));
-const slideCount = slides.length;
 const activeButton = 'slider__button_active';
-let slideIndex = 0;
 
 // Устанавливаем обработчики событий для кнопок
 startButton.addEventListener('click', showStartSlide);
@@ -52,6 +50,3 @@ function showlastSlide() {
     middleSlider.style.display = 'none';
     lastSlider.style.display = 'block';
 }
-
-// Инициализация слайдера
-updateSlider();

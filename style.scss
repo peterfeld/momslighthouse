@@ -61,7 +61,12 @@ a, li {
 }
 
 .slider {
-    position: relative;
+
+    &__list {
+        position: relative;
+        transition: all 1.2s ease-in-out;
+
+    }
     &__item {
          background-repeat: no-repeat;
          height: 900px;
@@ -70,7 +75,6 @@ a, li {
          padding-bottom: 141px;
 
         &_who {
-
             background-image: url(./img/bg_top_1.jpg);
         }
 
@@ -137,8 +141,7 @@ a, li {
     }
 
     &__buttons {
-        padding-top: 43px;
-        bottom: 100px;
+        top: 770px;
         right: calc(50% - 608px);
         position: absolute;
         display: flex;

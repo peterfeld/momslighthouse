@@ -52,8 +52,9 @@ a, li {
   gap: 25px;
 }
 
-.slider {
+.slider__list {
   position: relative;
+  transition: all 1.2s ease-in-out;
 }
 .slider__item {
   background-repeat: no-repeat;
@@ -117,8 +118,7 @@ a, li {
   background: linear-gradient(90deg, #CFEBF7 8.69%, #FBFDFF 96.77%);
 }
 .slider__buttons {
-  padding-top: 43px;
-  bottom: 100px;
+  top: 770px;
   right: calc(50% - 608px);
   position: absolute;
   display: flex;
