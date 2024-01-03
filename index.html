@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мамин маяк</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&family=Montserrat:wght@400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/58c3df22b4/UntitledProject/style-svg.css">    
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="page">
+        <header class="header center">
+            <div class="header__wrapper">
+                <a href="index.html"><svg width="292" height="16" viewBox="0 0 292 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.34 7.575H2.39V12H0.47V1.5H2.39V5.895H4.4L7.415 1.5H9.485L5.9 6.585L9.62 12H7.415L4.34 7.575ZM18.1987 3.99V12H16.3237V5.58H13.3237L13.2487 7.17C13.1987 8.23 13.0987 9.12 12.9487 9.84C12.8087 10.55 12.5637 11.115 12.2137 11.535C11.8737 11.945 11.4037 12.15 10.8037 12.15C10.5237 12.15 10.1787 12.095 9.76871 11.985L9.85871 10.41C9.99871 10.44 10.1187 10.455 10.2187 10.455C10.5987 10.455 10.8837 10.305 11.0737 10.005C11.2637 9.695 11.3837 9.33 11.4337 8.91C11.4937 8.48 11.5437 7.87 11.5837 7.08L11.7187 3.99H18.1987ZM28.4489 3.99V10.785C28.4489 13.605 27.0639 15.015 24.2939 15.015C23.5639 15.015 22.8639 14.915 22.1939 14.715C21.5339 14.525 20.9889 14.245 20.5589 13.875L21.3989 12.465C21.7389 12.755 22.1539 12.985 22.6439 13.155C23.1339 13.325 23.6489 13.41 24.1889 13.41C25.0089 13.41 25.6089 13.21 25.9889 12.81C26.3789 12.42 26.5739 11.815 26.5739 10.995V10.62C26.2739 10.95 25.9089 11.205 25.4789 11.385C25.0489 11.555 24.5839 11.64 24.0839 11.64C23.0139 11.64 22.1689 11.345 21.5489 10.755C20.9389 10.165 20.6339 9.28 20.6339 8.1V3.99H22.5089V7.86C22.5089 8.57 22.6689 9.105 22.9889 9.465C23.3189 9.815 23.7839 9.99 24.3839 9.99C25.0539 9.99 25.5839 9.785 25.9739 9.375C26.3739 8.965 26.5739 8.37 26.5739 7.59V3.99H28.4489ZM35.2688 4.38C36.0288 4.38 36.6988 4.545 37.2788 4.875C37.8588 5.195 38.3088 5.645 38.6288 6.225C38.9588 6.805 39.1238 7.47 39.1238 8.22C39.1238 8.99 38.9438 9.675 38.5838 10.275C38.2238 10.865 37.7188 11.325 37.0688 11.655C36.4188 11.985 35.6788 12.15 34.8488 12.15C33.4588 12.15 32.3838 11.69 31.6238 10.77C30.8638 9.85 30.4838 8.525 30.4838 6.795C30.4838 5.185 30.8288 3.91 31.5188 2.97C32.2088 2.03 33.2638 1.41 34.6838 1.11L38.4038 0.314999L38.6738 1.995L35.2988 2.685C34.3288 2.885 33.6038 3.225 33.1238 3.705C32.6438 4.185 32.3638 4.86 32.2838 5.73C32.6438 5.3 33.0788 4.97 33.5888 4.74C34.0988 4.5 34.6588 4.38 35.2688 4.38ZM34.8938 10.635C35.5838 10.635 36.1388 10.415 36.5588 9.975C36.9888 9.525 37.2038 8.955 37.2038 8.265C37.2038 7.575 36.9888 7.02 36.5588 6.6C36.1388 6.18 35.5838 5.97 34.8938 5.97C34.1938 5.97 33.6288 6.18 33.1988 6.6C32.7688 7.02 32.5538 7.575 32.5538 8.265C32.5538 8.965 32.7688 9.535 33.1988 9.975C33.6388 10.415 34.2038 10.635 34.8938 10.635ZM50.8892 7.83C51.8792 8.13 52.3742 8.77 52.3742 9.75C52.3742 10.47 52.1042 11.025 51.5642 11.415C51.0242 11.805 50.2242 12 49.1642 12H45.0842V3.99H48.9992C49.9792 3.99 50.7442 4.17 51.2942 4.53C51.8442 4.89 52.1192 5.4 52.1192 6.06C52.1192 6.47 52.0092 6.825 51.7892 7.125C51.5792 7.425 51.2792 7.66 50.8892 7.83ZM46.8692 7.335H48.8342C49.8042 7.335 50.2892 7 50.2892 6.33C50.2892 5.68 49.8042 5.355 48.8342 5.355H46.8692V7.335ZM49.0142 10.635C50.0442 10.635 50.5592 10.3 50.5592 9.63C50.5592 9.28 50.4392 9.02 50.1992 8.85C49.9592 8.67 49.5842 8.58 49.0742 8.58H46.8692V10.635H49.0142ZM59.1563 7.83C59.6563 7.97 60.0413 8.2 60.3113 8.52C60.5913 8.83 60.7313 9.205 60.7313 9.645C60.7313 10.135 60.5663 10.57 60.2363 10.95C59.9063 11.32 59.4513 11.61 58.8713 11.82C58.2913 12.03 57.6313 12.135 56.8913 12.135C56.2713 12.135 55.6663 12.065 55.0763 11.925C54.4863 11.775 53.9513 11.565 53.4713 11.295L54.0113 9.9C54.4013 10.12 54.8413 10.29 55.3313 10.41C55.8213 10.53 56.3113 10.59 56.8013 10.59C57.4313 10.59 57.9213 10.495 58.2713 10.305C58.6313 10.105 58.8113 9.835 58.8113 9.495C58.8113 9.185 58.6713 8.945 58.3913 8.775C58.1213 8.605 57.7363 8.52 57.2363 8.52H55.6763V7.26H57.0863C57.5563 7.26 57.9213 7.18 58.1813 7.02C58.4513 6.86 58.5863 6.635 58.5863 6.345C58.5863 6.055 58.4263 5.825 58.1063 5.655C57.7863 5.485 57.3463 5.4 56.7863 5.4C55.9863 5.4 55.1413 5.595 54.2513 5.985L53.7713 4.605C54.8213 4.115 55.8813 3.87 56.9513 3.87C57.6313 3.87 58.2413 3.965 58.7813 4.155C59.3213 4.335 59.7413 4.595 60.0413 4.935C60.3513 5.265 60.5063 5.645 60.5063 6.075C60.5063 6.465 60.3863 6.815 60.1463 7.125C59.9063 7.425 59.5763 7.66 59.1563 7.83ZM70.477 3.99V12H68.692V10.965C68.382 11.345 67.997 11.63 67.537 11.82C67.087 12.01 66.587 12.105 66.037 12.105C65.257 12.105 64.557 11.935 63.937 11.595C63.327 11.255 62.847 10.775 62.497 10.155C62.157 9.535 61.987 8.815 61.987 7.995C61.987 7.175 62.157 6.46 62.497 5.85C62.847 5.23 63.327 4.75 63.937 4.41C64.557 4.07 65.257 3.9 66.037 3.9C66.557 3.9 67.032 3.99 67.462 4.17C67.902 4.35 68.282 4.615 68.602 4.965V3.99H70.477ZM66.247 10.5C66.937 10.5 67.507 10.27 67.957 9.81C68.407 9.35 68.632 8.745 68.632 7.995C68.632 7.245 68.407 6.64 67.957 6.18C67.507 5.72 66.937 5.49 66.247 5.49C65.557 5.49 64.987 5.72 64.537 6.18C64.097 6.64 63.877 7.245 63.877 7.995C63.877 8.745 64.097 9.35 64.537 9.81C64.987 10.27 65.557 10.5 66.247 10.5ZM80.5502 3.99V12H78.7652V10.98C78.4652 11.34 78.0902 11.62 77.6402 11.82C77.2002 12.01 76.7202 12.105 76.2002 12.105C75.1302 12.105 74.2852 11.81 73.6652 11.22C73.0452 10.62 72.7352 9.735 72.7352 8.565V3.99H74.6102V8.31C74.6102 9.03 74.7702 9.57 75.0902 9.93C75.4202 10.28 75.8902 10.455 76.5002 10.455C77.1602 10.455 77.6852 10.25 78.0752 9.84C78.4752 9.42 78.6752 8.82 78.6752 8.04V3.99H80.5502ZM90.9573 12V6.69L88.2573 11.16H87.4473L84.7923 6.675V12H83.0823V3.99H85.0473L87.8973 9L90.8823 3.99H92.6373L92.6523 12H90.9573ZM98.7372 12.105C97.9272 12.105 97.1972 11.93 96.5472 11.58C95.8972 11.23 95.3872 10.745 95.0172 10.125C94.6572 9.495 94.4772 8.785 94.4772 7.995C94.4772 7.205 94.6572 6.5 95.0172 5.88C95.3872 5.26 95.8972 4.775 96.5472 4.425C97.1972 4.075 97.9272 3.9 98.7372 3.9C99.5572 3.9 100.292 4.075 100.942 4.425C101.592 4.775 102.097 5.26 102.457 5.88C102.827 6.5 103.012 7.205 103.012 7.995C103.012 8.785 102.827 9.495 102.457 10.125C102.097 10.745 101.592 11.23 100.942 11.58C100.292 11.93 99.5572 12.105 98.7372 12.105ZM98.7372 10.5C99.4272 10.5 99.9972 10.27 100.447 9.81C100.897 9.35 101.122 8.745 101.122 7.995C101.122 7.245 100.897 6.64 100.447 6.18C99.9972 5.72 99.4272 5.49 98.7372 5.49C98.0472 5.49 97.4772 5.72 97.0272 6.18C96.5872 6.64 96.3672 7.245 96.3672 7.995C96.3672 8.745 96.5872 9.35 97.0272 9.81C97.4772 10.27 98.0472 10.5 98.7372 10.5ZM112.544 3.99V12H110.684V5.58H106.739V12H104.864V3.99H112.544ZM118.644 12.105C117.834 12.105 117.104 11.93 116.454 11.58C115.804 11.23 115.294 10.745 114.924 10.125C114.564 9.495 114.384 8.785 114.384 7.995C114.384 7.205 114.564 6.5 114.924 5.88C115.294 5.26 115.804 4.775 116.454 4.425C117.104 4.075 117.834 3.9 118.644 3.9C119.464 3.9 120.199 4.075 120.849 4.425C121.499 4.775 122.004 5.26 122.364 5.88C122.734 6.5 122.919 7.205 122.919 7.995C122.919 8.785 122.734 9.495 122.364 10.125C122.004 10.745 121.499 11.23 120.849 11.58C120.199 11.93 119.464 12.105 118.644 12.105ZM118.644 10.5C119.334 10.5 119.904 10.27 120.354 9.81C120.804 9.35 121.029 8.745 121.029 7.995C121.029 7.245 120.804 6.64 120.354 6.18C119.904 5.72 119.334 5.49 118.644 5.49C117.954 5.49 117.384 5.72 116.934 6.18C116.494 6.64 116.274 7.245 116.274 7.995C116.274 8.745 116.494 9.35 116.934 9.81C117.384 10.27 117.954 10.5 118.644 10.5ZM132.647 12V6.69L129.947 11.16H129.137L126.482 6.675V12H124.772V3.99H126.737L129.587 9L132.572 3.99H134.327L134.342 12H132.647ZM140.427 12.105C139.617 12.105 138.887 11.93 138.237 11.58C137.587 11.23 137.077 10.745 136.707 10.125C136.347 9.495 136.167 8.785 136.167 7.995C136.167 7.205 136.347 6.5 136.707 5.88C137.077 5.26 137.587 4.775 138.237 4.425C138.887 4.075 139.617 3.9 140.427 3.9C141.247 3.9 141.982 4.075 142.632 4.425C143.282 4.775 143.787 5.26 144.147 5.88C144.517 6.5 144.702 7.205 144.702 7.995C144.702 8.785 144.517 9.495 144.147 10.125C143.787 10.745 143.282 11.23 142.632 11.58C141.982 11.93 141.247 12.105 140.427 12.105ZM140.427 10.5C141.117 10.5 141.687 10.27 142.137 9.81C142.587 9.35 142.812 8.745 142.812 7.995C142.812 7.245 142.587 6.64 142.137 6.18C141.687 5.72 141.117 5.49 140.427 5.49C139.737 5.49 139.167 5.72 138.717 6.18C138.277 6.64 138.057 7.245 138.057 7.995C138.057 8.745 138.277 9.35 138.717 9.81C139.167 10.27 139.737 10.5 140.427 10.5ZM158.359 3.99V12H146.554V3.99H148.429V10.41H151.534V3.99H153.409V10.41H156.484V3.99H158.359ZM159.514 10.41V13.65H157.759V12H156.424V10.41H159.514ZM168.47 3.99V12H166.685V10.98C166.385 11.34 166.01 11.62 165.56 11.82C165.12 12.01 164.64 12.105 164.12 12.105C163.05 12.105 162.205 11.81 161.585 11.22C160.965 10.62 160.655 9.735 160.655 8.565V3.99H162.53V8.31C162.53 9.03 162.69 9.57 163.01 9.93C163.34 10.28 163.81 10.455 164.42 10.455C165.08 10.455 165.605 10.25 165.995 9.84C166.395 9.42 166.595 8.82 166.595 8.04V3.99H168.47ZM174.518 7.995L176.648 5.085H178.343L176.258 7.995L178.343 10.89H176.648L174.518 7.995ZM177.638 7.995L179.768 5.085H181.463L179.378 7.995L181.463 10.89H179.768L177.638 7.995ZM193.03 12L193.015 5.04L189.565 10.8H188.695L185.245 5.13V12H183.4V1.5H185.005L189.16 8.445L193.27 1.5H194.86L194.89 12H193.03ZM205.418 3.99V12H203.633V10.965C203.323 11.345 202.938 11.63 202.478 11.82C202.028 12.01 201.528 12.105 200.978 12.105C200.198 12.105 199.498 11.935 198.878 11.595C198.268 11.255 197.788 10.775 197.438 10.155C197.098 9.535 196.928 8.815 196.928 7.995C196.928 7.175 197.098 6.46 197.438 5.85C197.788 5.23 198.268 4.75 198.878 4.41C199.498 4.07 200.198 3.9 200.978 3.9C201.498 3.9 201.973 3.99 202.403 4.17C202.843 4.35 203.223 4.615 203.543 4.965V3.99H205.418ZM201.188 10.5C201.878 10.5 202.448 10.27 202.898 9.81C203.348 9.35 203.573 8.745 203.573 7.995C203.573 7.245 203.348 6.64 202.898 6.18C202.448 5.72 201.878 5.49 201.188 5.49C200.498 5.49 199.928 5.72 199.478 6.18C199.038 6.64 198.818 7.245 198.818 7.995C198.818 8.745 199.038 9.35 199.478 9.81C199.928 10.27 200.498 10.5 201.188 10.5ZM215.777 12V6.69L213.077 11.16H212.267L209.612 6.675V12H207.902V3.99H209.867L212.717 9L215.702 3.99H217.457L217.472 12H215.777ZM227.577 3.99V12H225.792V10.98C225.492 11.34 225.117 11.62 224.667 11.82C224.227 12.01 223.747 12.105 223.227 12.105C222.157 12.105 221.312 11.81 220.692 11.22C220.072 10.62 219.762 9.735 219.762 8.565V3.99H221.637V8.31C221.637 9.03 221.797 9.57 222.117 9.93C222.447 10.28 222.917 10.455 223.527 10.455C224.187 10.455 224.712 10.25 225.102 9.84C225.502 9.42 225.702 8.82 225.702 8.04V3.99H227.577ZM230.109 3.99H231.984V7.245H236.019V3.99H237.894V12H236.019V8.835H231.984V12H230.109V3.99ZM252.427 12V6.69L249.727 11.16H248.917L246.262 6.675V12H244.552V3.99H246.517L249.367 9L252.352 3.99H254.107L254.122 12H252.427ZM264.437 3.99V12H262.652V10.965C262.342 11.345 261.957 11.63 261.497 11.82C261.047 12.01 260.547 12.105 259.997 12.105C259.217 12.105 258.517 11.935 257.897 11.595C257.287 11.255 256.807 10.775 256.457 10.155C256.117 9.535 255.947 8.815 255.947 7.995C255.947 7.175 256.117 6.46 256.457 5.85C256.807 5.23 257.287 4.75 257.897 4.41C258.517 4.07 259.217 3.9 259.997 3.9C260.517 3.9 260.992 3.99 261.422 4.17C261.862 4.35 262.242 4.615 262.562 4.965V3.99H264.437ZM260.207 10.5C260.897 10.5 261.467 10.27 261.917 9.81C262.367 9.35 262.592 8.745 262.592 7.995C262.592 7.245 262.367 6.64 261.917 6.18C261.467 5.72 260.897 5.49 260.207 5.49C259.517 5.49 258.947 5.72 258.497 6.18C258.057 6.64 257.837 7.245 257.837 7.995C257.837 8.745 258.057 9.35 258.497 9.81C258.947 10.27 259.517 10.5 260.207 10.5ZM273.685 3.99V12H272.005V9.585H269.89L268.255 12H266.245L268.135 9.33C267.555 9.13 267.11 8.825 266.8 8.415C266.5 7.995 266.35 7.48 266.35 6.87C266.35 5.95 266.675 5.24 267.325 4.74C267.975 4.24 268.87 3.99 270.01 3.99H273.685ZM270.07 5.565C268.86 5.565 268.255 6.02 268.255 6.93C268.255 7.83 268.84 8.28 270.01 8.28H272.005V5.565H270.07ZM279.537 8.79H278.082V12H276.207V3.99H278.082V7.23H279.582L281.952 3.99H283.962L281.052 7.845L284.157 12H281.952L279.537 8.79ZM284.67 10.89L286.755 7.995L284.67 5.085H286.365L288.495 7.995L286.365 10.89H284.67ZM287.79 10.89L289.875 7.995L287.79 5.085H289.485L291.615 7.995L289.485 10.89H287.79Z" fill="#004373"/>
+                    </svg>
+                    </a>
+    
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li>
+                            <a class="header__link" href="#">О нас</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="#">Новые статьи</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="#">Беременность и роды</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="#">Маме</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="#">Ребёнку</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="#">Идеи</a>
+                        </li>
+                        <li>
+                            <a class="header__link" href="#">Рецепты</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <div class="user-menu">
+                            <a class="user-menu__link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 18C4 16.9391 4.42143 15.9217 5.17157 15.1716C5.92172 14.4214 6.93913 14 8 14H16C17.0609 14 18.0783 14.4214 18.8284 15.1716C19.5786 15.9217 20 16.9391 20 18C20 18.5304 19.7893 19.0391 19.4142 19.4142C19.0391 19.7893 18.5304 20 18 20H6C5.46957 20 4.96086 19.7893 4.58579 19.4142C4.21071 19.0391 4 18.5304 4 18Z" stroke="#004373" stroke-linejoin="round"/>
+                                <path d="M12 10C13.6569 10 15 8.65685 15 7C15 5.34315 13.6569 4 12 4C10.3431 4 9 5.34315 9 7C9 8.65685 10.3431 10 12 10Z" stroke="#004373"/>
+                                </svg>
+                                </a>
+                            <a class="user-menu__link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.4851 20.154L13.2231 13.892C12.7231 14.318 12.1481 14.6477 11.4981 14.881C10.8481 15.1143 10.1948 15.231 9.53811 15.231C7.93677 15.231 6.58144 14.6767 5.47211 13.568C4.36277 12.4587 3.80811 11.1037 3.80811 9.50301C3.80811 7.90235 4.36211 6.54668 5.47011 5.43601C6.57877 4.32468 7.93344 3.76901 9.53411 3.76901C11.1354 3.76901 12.4914 4.32368 13.6021 5.43301C14.7128 6.54235 15.2681 7.89801 15.2681 9.50001C15.2681 10.1947 15.1451 10.867 14.8991 11.517C14.6524 12.167 14.3291 12.723 13.9291 13.185L20.1911 19.446L19.4851 20.154ZM9.53811 14.23C10.8648 14.23 11.9851 13.7733 12.8991 12.86C13.8124 11.9467 14.2691 10.8263 14.2691 9.49901C14.2691 8.17235 13.8124 7.05235 12.8991 6.13901C11.9858 5.22568 10.8658 4.76901 9.5391 4.76901C8.21244 4.76901 7.09211 5.22568 6.17811 6.13901C5.26477 7.05235 4.80811 8.17235 4.80811 9.49901C4.80811 10.8257 5.26477 11.9457 6.17811 12.859C7.09144 13.7723 8.21144 14.23 9.53811 14.23Z" fill="#004373"/>
+                                </svg>
+                                </a>
+                </div>
+            </div>
+
+        </header>
+        <ul class="slider">
+            <li class="slider__item slider__item_who">
+                <div class="slider__content center">
+                    <h2 class="slider__title">Мамин маяк</h1>
+                    <p class="slider__text">Портал для тех, кто не хочет потеряться на пути материнства</p>
+                    <a class="slider__link" href="">Читать статьи</a>
+                </div>
+
+                <div class="slider__buttons">
+                    <button class="slider__button slider__button_start slider__button_active" type="button"></button>
+                    <button class="slider__button slider__button_middle" type="button"></button>
+                    <button class="slider__button slider__button_last" type="button"></button>
+                </div>
+            </li>
+            <li class="slider__item slider__item_for-mom">
+                <div class="slider__content center slider__content_big">
+                    <h2 class="slider__title">Для мам</h2>
+                    <p class="slider__text slider__text_little">Расскажем, как не забыть о себе в декрете, как сохранить рассудок, когда ты весь день одна дома с детьми, как облегчить себе жизнь, отдохнуть и набраться ресурса. Счастлива мама — счастлива семья!</p>
+                    <a class="slider__link" href="">Перейти в раздел</a>
+                </div>
+
+                <div class="slider__buttons">
+                    <button class="slider__button slider__button_start" type="button"></button>
+                    <button class="slider__button slider__button_middle" type="button"></button>
+                    <button class="slider__button slider__button_last" type="button"></button>
+                </div>
+            </li>
+            <li class="slider__item slider__item_for-a-child">
+                <div class="slider__content center slider__content_big">
+                    <h2 class="slider__title">Для детей</h2>
+                    <p class="slider__text slider__text_little">Снимем тревожность, разберёмся, что такое дети и где к ним инструкция, разберёмся, как помочь им вырасти хорошими людьми.</p>
+                    <a class="slider__link" href="">Читать статьи</a>
+                </div>
+
+                <div class="slider__buttons">
+                    <button class="slider__button slider__button_start" type="button"></button>
+                    <button class="slider__button slider__button_middle" type="button"></button>
+                    <button class="slider__button slider__button_last" type="button"></button>
+                </div>
+            </li>
+        </ul>
+
+    <main>
+        <h1 class="page-title">Мамин маяк</h1>
+        <section class="new center">
+            <h2 class="new__title">Новое</h2>
+    
+            <div class="new__content">
+                <ul class="new__list">
+                    <li class="new__article">
+                        <article class="article-preview">
+                            <a href="#"><img class="article-preview__img" src="./img/img_new_1.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Маме</a>
+                                <a class="article-preview__links" href="#">Психология мам</a>
+                            </div>
+                            <h3 class="article-preview__title">Свекровь? Свекровь!</h3>
+                            <p class="article-preview__text">Только спокойствие</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article article">
+                        <article class="article-preview">
+                            <a href="#"><img class="article-preview__img" src="./img/img_new_2.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Ребёнку</a>
+                                <a class="article-preview__links" href="#">Трудности ребенка</a>
+                            </div>
+                            <h3 class="article-preview__title">Куда делся сон</h3>
+                            <p class="article-preview__text">Что такое ВБ и СЗ</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article article">
+                        <article class="article-preview">
+                            <a href="#"><img class="article-preview__img" src="./img/img_new_3.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Ребёнку</a>
+                                <a class="article-preview__links" href="#">Чем занять малыша</a>
+                            </div>
+                            <h3 class="article-preview__title">Как играть с двумя</h3>
+                            <p class="article-preview__text">И сохранить рассудок</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article">
+                        <article class="article-preview article-preview_big">
+                            <a href="#"><img class="article-preview__img" src="./img/img_new_4_big.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Беременность и роды</a>
+                                <a class="article-preview__links" href="#">Лактация</a>
+                            </div>
+                            <h3 class="article-preview__title">Нагрубание молочных желез</h3>
+                            <p class="article-preview__text">Как себе помочь</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article article">
+                        <article class="article-preview">
+                            <a href="#"><img class="article-preview__img" src="./img/img_new_5.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Рецепты</a>
+                                <a class="article-preview__links" href="#">Ребёнок не ест</a>
+                            </div>
+                            <h3 class="article-preview__title">Пищевая неофобия</h3>
+                            <p class="article-preview__text">Почему ребёнок перестал есть</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+    
+                <div class="aside__content">
+                    <aside class="new__share aside">
+                        <h3 class="aside__title">Поделитесь</h3>
+                        <ul class="aside__list aside__list_question">
+                            <li class="aside__item aside__item_question">Где вам понравилось отдыхать с малышом</li>
+                            <li class="aside__item aside__item_question">Как вы набираетесь ресурса</li>
+                            <li class="aside__item aside__item_question">Как отдохнуть за пару минут</li>
+                        </ul>
+                        <p class="aside__text">И станьте героиней нашего журнала</p>
+                    </aside>
+                    <aside class="new__vote aside">
+                        <h3 class="aside__title">Проголосуйте</h3>
+                        <ul class="aside__list">
+                            <li class="aside__item">За лучшую статью недели</li>
+                            <li class="aside__item">За лучшего автора</li>
+                            <li class="aside__item">За новый материал</li>
+                        </ul>
+                        <p class="aside__text">И поучаствуйте в розыгрыше подписки</p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    
+        <section class="popular center">
+            <h2 class="popular__title">Популярное</h2>
+    
+            <ul class="popular__list">
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/popular_1.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Ребёнку</a>
+                            <a class="article-preview__links" href="#">Советы врача</a>
+                        </div>
+                        <h3 class="article-preview__title">Колики у самых маленьких</h3>
+                        <p class="article-preview__text">Как пережить и надо ли что‑то с ними делать</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/popular_2.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Маме</a>
+                            <a class="article-preview__links" href="#">Где отдохнуть</a>
+                        </div>
+                        <h3 class="article-preview__title">Les Art — стоит или нет?</h3>
+                        <p class="article-preview__text">Обзор тайной клиентки и объективная оценка</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/popular_3.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Ребёнку</a>
+                            <a class="article-preview__links" href="#">Чем занять малыша</a>
+                        </div>
+                        <h3 class="article-preview__title">Развлечения для самых маленьких</h3>
+                        <p class="article-preview__text">Без вреда для маминой нервной системы</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/popular_4.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Рецепты</a>
+                            <a class="article-preview__links" href="#">Рецепты для аллергиков</a>
+                        </div>
+                        <h3 class="article-preview__title">Дети и фрукты — кормить нельзя?</h3>
+                        <p class="article-preview__text">Как добавить их в рацион, если на всё краснеют щеки</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    
+        <section class="ask ask_doc">
+            <div class="ask__content center">
+                <h2 class="ask__title">Из рубрики «Спроси у врача»:</h2>
+                <ul class="ask__list">
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_1.jpg" alt="Аватар Ксю">
+                            <p class="ask__user">Ксю</p>
+                        </div>
+                        <p class="ask__text">Ребёнок мучается от колик. Что делать?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_2.jpg" alt="Аватар Алена">
+                            <p class="ask__user">Алена</p>
+                        </div>
+                        <p class="ask__text">Как правильно сбивать высокую температуру?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_3.jpg" alt="Аватар Маша">
+                            <p class="ask__user">Маша</p>
+                        </div>
+                        <p class="ask__text">Чем помочь малышу, когда режутся зубы?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_4.jpg" alt="Аватар Анастасия">
+                            <p class="ask__user">Анастасия</p>
+                        </div>
+                        <p class="ask__text">Что делать, если малыш упал с кровати?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_5.jpg" alt="Аватар Алеся">
+                            <p class="ask__user">Алеся</p>
+                        </div>
+                        <p class="ask__text">Трехлетка жалуется, что по ночам болят ноги. Что это?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_6.jpg" alt="Аватар Саша">
+                            <p class="ask__user">Саша</p>
+                        </div>
+                        <p class="ask__text">СДВГ — это приговор? Насколько это серьёзно?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_7.jpg" alt="Аватар Елизавета">
+                            <p class="ask__user">Елизавета</p>
+                        </div>
+                        <p class="ask__text">Нужны ли детям препараты, повышающие мозговую активность?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_8.jpg" alt="Аватар Регина">
+                            <p class="ask__user">Регина</p>
+                        </div>
+                        <p class="ask__text">Когда правда нужны антибиотики?</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <section class="about center">
+            <div class="about__wrapper">
+                <h2 class="about__title">Всё про детский сон</h2>
+                <p class="about__where">В разделе «Ребёнку»</p>
+                <p class="about__content">Расскажем про периоды активности и спокойное бодрствование</p>
+                <a class="about__link" href="#">Читать статью</a>
+            </div>
+        </section>
+    
+        <section class="new new_mom center">
+            <h2 class="new__title">Новое в разделе «Маме»</h2>
+    
+            <div class="new__content new__content_mom">
+                <ul class="new__list new__list_mom">
+                    <li class="new__article">
+                        <article class="article-preview article-preview_big">
+                            <a href="#"><img class="article-preview__img" src="./img/new_mom_1.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Маме</a>
+                                <a class="article-preview__links" href="#">Как выбрать детский сад</a>
+                            </div>
+                            <h3 class="article-preview__title">Адаптация в саду и прочие кошмары</h3>
+                            <p class="article-preview__text">И как подготовить к этому маму</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article article">
+                        <article class="article-preview ">
+                            <a href="#"><img class="article-preview__img" src="./img/new_mom_2.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Маме</a>
+                                <a class="article-preview__links" href="#">Психология мам</a>
+                            </div>
+                            <h3 class="article-preview__title">Любовь к ребенку</h3>
+                            <p class="article-preview__text">И когда она зарождается</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article article">
+                        <article class="article-preview">
+                            <a href="#"><img class="article-preview__img" src="./img/new_mom_3.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Маме</a>
+                                <a class="article-preview__links" href="#">Как облегчить себе жизнь</a>
+                            </div>
+                            <h3 class="article-preview__title">Будни многодетной</h3>
+                            <p class="article-preview__text">И лайфхаки, как выживать</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article">
+                        <article class="article-preview ">
+                            <a href="#"><img class="article-preview__img" src="./img/new_mom_4.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Маме</a>
+                                <a class="article-preview__links" href="#">Трудности ребёнка</a>
+                            </div>
+                            <h3 class="article-preview__title">Очередной кризис</h3>
+                            <p class="article-preview__text">Когда же его отпустит</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article article">
+                        <article class="article-preview">
+                            <a href="#"><img class="article-preview__img" src="./img/new_mom_5.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Маме</a>
+                                <a class="article-preview__links" href="#">Как облегчить себе жизнь</a>
+                            </div>
+                            <h3 class="article-preview__title">Воскресный папа</h3>
+                            <p class="article-preview__text">Что, если ваши пути разошлись</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+    
+                <div class="aside__content">
+                    <aside class="aside aside_what-else">
+                        <h3 class="aside__title aside__title_what-else">Что ещё есть в этом разделе:</h3>
+                        <ul class="aside__list aside__list_what-else">
+                            <li class="aside__item aside__item_what-else">Как выбрать няню</li>
+                            <li class="aside__item aside__item_what-else">Как выбрать детский сад</li>
+                            <li class="aside__item aside__item_what-else">Где взять ресурс</li>
+                            <li class="aside__item aside__item_what-else">Как прийти в форму</li>
+                            <li class="aside__item aside__item_what-else">Где отдохнуть</li>
+                            <li class="aside__item aside__item_what-else">Как облегчить себе жизнь</li>
+                            <li class="aside__item aside__item_what-else">Психология мам</li>
+                        </ul>
+    
+                        <a class="aside__link" href="#">Читать статьи</a>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    
+        <section class="ask ask_psi">
+            <div class="ask__content center">
+                <h2 class="ask__title">Из рубрики «Спроси у психолога»:</h2>
+                <ul class="ask__list">
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_1.jpg" alt="Аватар Маша">
+                            <p class="ask__user">Маша</p>
+                        </div>
+                        <p class="ask__text">Жутко устала тащить всё на себе, но не могу попросить помощи. Что делать?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_2.jpg" alt="Аватар Алена">
+                            <p class="ask__user">Алена</p>
+                        </div>
+                        <p class="ask__text">Как уговорить маму чаще общаться с внуками?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_3.jpg" alt="Аватар Ксю">
+                            <p class="ask__user">Ксю</p>
+                        </div>
+                        <p class="ask__text">Я будто бы не люблю своего ребёнка. Что делать?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_4.jpg" alt="Аватар Анастасия">
+                            <p class="ask__user">Анастасия</p>
+                        </div>
+                        <p class="ask__text">Надоел день сурка. Как из этого выбраться?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_5.jpg" alt="Аватар Елизавета">
+                            <p class="ask__user">Елизавета</p>
+                        </div>
+                        <p class="ask__text">Мучает чувство, будто жизнь проходит мимо. Так ли это?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_6.jpg" alt="Аватар Регина">
+                            <p class="ask__user">Регина</p>
+                        </div>
+                        <p class="ask__text">Совсем не понимаю своего ребёнка, срываюсь, кричу. Как быть?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_7.jpg" alt="Аватар Алеся">
+                            <p class="ask__user">Алеся</p>
+                        </div>
+                        <p class="ask__text">Трехлетка сводит меня с ума своими истериками. Как это вывезти?</p>
+                    </li>
+                    <li class="ask__item">
+                        <div class="ask__info">
+                            <img class="ask__avatar" src="./img/ask_user_8.jpg" alt="Аватар Саша">
+                            <p class="ask__user">Саша</p>
+                        </div>
+                        <p class="ask__text">Куда бежать при первых признаках депрессии?</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <section class="new new_child center">
+            <h2 class="new__title">Новое в разделе «Ребёнку»</h2>
+    
+            <div class="new__content">
+                <ul class="new__list">
+                    <li class="new__article">
+                        <article class="article-preview article-preview_big">
+                            <a href="#"><img class="article-preview__img" src="./img/new_child_1.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Ребёнку</a>
+                                <a class="article-preview__links" href="#">Полезные и бесполезные покупки</a>
+                            </div>
+                            <h3 class="article-preview__title">Давай поиграем!</h3>
+                            <p class="article-preview__text">Но прежде выберем игрушки</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article article">
+                        <article class="article-preview">
+                            <a href="#"><img class="article-preview__img" src="./img/new_child_2.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Ребёнку</a>
+                                <a class="article-preview__links" href="#">Мифы о первых месяцах</a>
+                            </div>
+                            <h3 class="article-preview__title">Подарочные дети</h3>
+                            <p class="article-preview__text">И есть ли они в природе</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article article">
+                        <article class="article-preview">
+                            <a href="#"><img class="article-preview__img" src="./img/new_child_3.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Ребёнку</a>
+                                <a class="article-preview__links" href="#">Трудности ребенка</a>
+                            </div>
+                            <h3 class="article-preview__title">Кризис трёх…</h3>
+                            <p class="article-preview__text">И как его пережить</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="new__article">
+                        <article class="article-preview article-preview_big">
+                            <a href="#"><img class="article-preview__img" src="./img/new_child_4.jpg" alt="Изображение статьи"></a>
+                            <div class="article-preview__breadcrums">
+                                <a class="article-preview__links" href="#">Ребёнку</a>
+                                <a class="article-preview__links" href="#">Развитие по неделям</a>
+                            </div>
+                            <h3 class="article-preview__title">Мальчик с пальчик</h3>
+                            <p class="article-preview__text">Почему малыш так медленно растёт</p>
+                            <div class="article-preview__buttons">
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                                <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+    
+                <div class="aside__content">
+                    <aside class="aside aside_what-else">
+                        <h3 class="aside__title aside__title_what-else">Что ещё есть в этом разделе:</h3>
+                        <ul class="aside__list aside__list_what-else">
+                            <li class="aside__item aside__item_what-else">Развитие по неделям</li>
+                            <li class="aside__item aside__item_what-else">Таблица роста и веса</li>
+                            <li class="aside__item aside__item_what-else">Мифы о первых месяцах</li>
+                            <li class="aside__item aside__item_what-else">Советы врача</li>
+                            <li class="aside__item aside__item_what-else">Трудности ребенка</li>
+                            <li class="aside__item aside__item_what-else">Чем занять малыша</li>
+                            <li class="aside__item aside__item_what-else">Полезные и бесполезные покупки</li>
+                        </ul>
+    
+                        <a class="aside__link" href="#">Читать статьи</a>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    
+        <section class="about about_vacation center">
+            <div class="about__wrapper">
+                <h2 class="about__title about__title_vacation">Всё про детский сон</h2>
+                <p class="about__where about__where_vacation">В разделе «Ребёнку»</p>
+                <p class="about__content about__content_vacation">Расскажем про периоды активности и спокойное бодрствование</p>
+                <a class="about__link" href="#">Читать статью</a>
+            </div>
+        </section>
+    
+        <section class="popular popular_recipes center">
+            <h2 class="popular__title">Новое в рецептах</h2>
+    
+            <ul class="popular__list">
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/new_recipes_1.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Рецепты</a>
+                            <a class="article-preview__links" href="#">Десерты</a>
+                        </div>
+                        <h3 class="article-preview__title">Капкейки с драже</h3>
+                        <p class="article-preview__text">Для маленьких гурманов</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/new_recipes_2.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Рецепты</a>
+                            <a class="article-preview__links" href="#">Десерты</a>
+                        </div>
+                        <h3 class="article-preview__title">Вкусное печенье</h3>
+                        <p class="article-preview__text">За 15 минут</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/new_recipes_3.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Рецепты</a>
+                            <a class="article-preview__links" href="#">Чем накормить</a>
+                        </div>
+                        <h3 class="article-preview__title">Занятные салаты</h3>
+                        <p class="article-preview__text">Которые понравятся всем</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/new_recipes_4.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Рецепты</a>
+                            <a class="article-preview__links" href="#">Обеды</a>
+                        </div>
+                        <h3 class="article-preview__title">Овощи для всех</h3>
+                        <p class="article-preview__text">Как приготовить вкусно</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer center">
+        <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+                <a class="footer-nav__link" href="">Контакты</a>
+            </li>
+            <li class="footer-nav__item">
+                <a class="footer-nav__link" href="">О проекте</a>
+            </li>
+            <li class="footer-nav__item">
+                <a class="footer-nav__link" href="">Политика конфиденциальности</a>
+            </li>
+        </ul>
+        <p class="footer__copyright">Мамин Маяк 2023</p>
+    </footer>
+
+    <script defer src="https://i.icomoon.io/public/temp/58c3df22b4/UntitledProject/svgxuse.js"></script>
+
+  </body>
+</html>
