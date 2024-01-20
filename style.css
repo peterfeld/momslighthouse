@@ -275,21 +275,9 @@ a, li {
   color: #004373;
   background: linear-gradient(90deg, #CFEBF7 8.69%, #FBFDFF 96.77%);
 }
-.slider__buttons {
-  top: 770px;
-  right: calc(50% - 608px);
-  position: absolute;
-  display: flex;
-  gap: 23px;
-}
-.slider__button {
-  width: 30px;
-  height: 30px;
-  border: none;
-  border-radius: 50%;
-}
-.slider__button_active {
-  background-color: #004373;
+
+.slider button.slick-next.slick-arrow {
+  display: none !important;
 }
 
 .user-menu {
