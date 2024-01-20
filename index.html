@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&family=Montserrat:wght@400;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/58c3df22b4/UntitledProject/style-svg.css">    
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/22d3a67907/UntitledProject/style-svg.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body class="page">
@@ -59,7 +60,7 @@
 
         </header>
         <div class="slider">
-            <ul class="slider__list">
+            <ul class="slider__list single-item">
                 <li class="slider__item slider__item_who">
                     <div class="slider__content center">
                         <h2 class="slider__title">Мамин маяк</h1>
@@ -84,11 +85,6 @@
                     </div>
                 </li>
             </ul>
-            <div class="slider__buttons">
-                <button class="slider__button slider__button_start slider__button_active" type="button"></button>
-                <button class="slider__button slider__button_middle" type="button"></button>
-                <button class="slider__button slider__button_last" type="button"></button>
-            </div>
         </div>
 
 
@@ -212,7 +208,7 @@
         <section class="popular center">
             <h2 class="popular__title">Популярное</h2>
     
-            <ul class="popular__list">
+            <ul class="popular__list multiple-items">
                 <li>
                     <article class="article-preview">
                         <a href="#"><img class="article-preview__img" src="./img/popular_1.jpg" alt="Изображение статьи"></a>
@@ -256,6 +252,40 @@
                         </div>
                         <h3 class="article-preview__title">Развлечения для самых маленьких</h3>
                         <p class="article-preview__text">Без вреда для маминой нервной системы</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/popular_4.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Рецепты</a>
+                            <a class="article-preview__links" href="#">Рецепты для аллергиков</a>
+                        </div>
+                        <h3 class="article-preview__title">Дети и фрукты — кормить нельзя?</h3>
+                        <p class="article-preview__text">Как добавить их в рацион, если на всё краснеют щеки</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/popular_4.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Рецепты</a>
+                            <a class="article-preview__links" href="#">Рецепты для аллергиков</a>
+                        </div>
+                        <h3 class="article-preview__title">Дети и фрукты — кормить нельзя?</h3>
+                        <p class="article-preview__text">Как добавить их в рацион, если на всё краснеют щеки</p>
                         <div class="article-preview__buttons">
                             <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
                             <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
@@ -638,7 +668,7 @@
         <section class="popular popular_recipes center">
             <h2 class="popular__title">Новое в рецептах</h2>
     
-            <ul class="popular__list">
+            <ul class="popular__list multiple-items">
                 <li>
                     <article class="article-preview">
                         <a href="#"><img class="article-preview__img" src="./img/new_recipes_1.jpg" alt="Изображение статьи"></a>
@@ -707,6 +737,23 @@
                         </div>
                     </article>
                 </li>
+                <li>
+                    <article class="article-preview">
+                        <a href="#"><img class="article-preview__img" src="./img/new_recipes_4.jpg" alt="Изображение статьи"></a>
+                        <div class="article-preview__breadcrums">
+                            <a class="article-preview__links" href="#">Рецепты</a>
+                            <a class="article-preview__links" href="#">Обеды</a>
+                        </div>
+                        <h3 class="article-preview__title">Овощи для всех</h3>
+                        <p class="article-preview__text">Как приготовить вкусно</p>
+                        <div class="article-preview__buttons">
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_like"><use xlink:href="#icon-heart"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_comment"><use xlink:href="#icon-comment"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_save"><use xlink:href="#icon-save"></use></svg></button>
+                            <button class="article-preview__button"><svg class="article-preview__icons article-preview__icons_share"><use xlink:href="#icon-share"></use></svg></button>
+                        </div>
+                    </article>
+                </li>
             </ul>
         </section>
     </main>
@@ -725,8 +772,15 @@
         <p class="footer__copyright">Мамин Маяк 2023</p>
     </footer>
 
-    <script defer src="https://i.icomoon.io/public/temp/58c3df22b4/UntitledProject/svgxuse.js"></script>
-    <script src="./slider.js"></script>
+    <script defer src="https://i.icomoon.io/public/temp/22d3a67907/UntitledProject/svgxuse.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+     
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="./initializationSlick.js"></script>
 
   </body>
 </html>
