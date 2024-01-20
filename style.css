@@ -5,17 +5,22 @@
   font-size: 0;
   line-height: 0;
   position: absolute;
-  top: 50%;
+  top: 32%;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 60px;
+  height: 60px;
   padding: 0;
   transform: translate(0, -50%);
+  background-image: url(./img/arrow.svg);
+  background-color: transparent;
   cursor: pointer;
-  color: transparent;
+  opacity: 0.6;
   border: none;
   outline: none;
-  background: transparent;
+}
+
+.slick-prev {
+  display: none;
 }
 
 .slick-prev:hover,
@@ -24,7 +29,8 @@
 .slick-next:focus {
   color: transparent;
   outline: none;
-  background: transparent;
+  background-image: url(./img/arrow.svg);
+  background-color: transparent;
 }
 
 .slick-prev:hover:before,
@@ -48,10 +54,6 @@
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.slick-prev {
-  left: -25px;
 }
 
 [dir=rtl] .slick-prev {
